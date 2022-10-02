@@ -1,0 +1,13 @@
+{
+  "name": "pan",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "author": "xn <280145668@qq.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/app": "^1.0.0",
+    "@capacitor/cli": "^3.0.0",
+    "@capacitor/core": "^3.0.0",
+    "@capacitor/splash-screen": "^1.0.0"
+  }
+}

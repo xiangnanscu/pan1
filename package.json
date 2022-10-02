@@ -8,11 +8,13 @@
   "scripts": {
     "ad": "quasar dev -m capacitor -T android",
     "ab": "quasar build -m capacitor -T android",
+    "push":"git add . && git commit -am \"${msg:-push}\" && git push --push-option=${push_option:-nothing}",
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
+    "@capacitor/camera": "^4.1.2",
     "@quasar/extras": "^1.0.0",
     "axios": "^0.21.1",
     "pinia": "^2.0.11",

@@ -6,14 +6,13 @@
   "author": "xn <280145668@qq.com>",
   "private": true,
   "scripts": {
-    "ad":"quasar dev -m capacitor -T android",
-    "ab":"quasar build -m capacitor -T android",
+    "ad": "quasar dev -m capacitor -T android",
+    "ab": "quasar build -m capacitor -T android",
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/app": "^3.3.3",
     "@quasar/extras": "^1.0.0",
     "axios": "^0.21.1",
     "pinia": "^2.0.11",
